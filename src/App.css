@@ -1,4 +1,6 @@
-
+.footer {
+    background-color: #EEE;
+}
 
 .footer h3 {
     font-size: 18px; /* Ajustement de la taille des titres */
@@ -18,7 +20,7 @@
 }
 
 .footer a {
-    color: #007bff; /* Couleur des liens */
+    color: black; /* Couleur des liens */
     font-size: 16px;
     text-decoration: none;
 }

@@ -10,7 +10,7 @@ const Footer = () => {
         <footer className="footer">
             <div className="container-fluid">
                 {/* Section des informations du footer avec Flexbox */}
-                <div className="d-flex flex-wrap justify-content-between">
+                <div className="d-flex flex-wrap justify-content-between p-5">
                     {/* Section des informations personnelles */}
                     <div className="col-md-3">
                         <h3>John Doe</h3>
@@ -45,7 +45,7 @@ const Footer = () => {
                         <ul className='list-unstyled'>
                             <li className='my-2'>
                               <FontAwesomeIcon icon={faAngleRight} className="mx-1" />
-                              <Link to="/home">Accueil</Link>
+                              <Link to="/">Accueil</Link>
                             </li>                          
                             <li className='my-2'>
                               <FontAwesomeIcon icon={faAngleRight} className="mx-1" />
@@ -66,17 +66,17 @@ const Footer = () => {
                     <div className="col-md-3">
                         <h3>Mes dernières réalisations</h3>
                         <ul className='list-unstyled'>
-                            <li className='my-2'>
+                            <li className='my-4'>
                               <FontAwesomeIcon icon={faAngleRight} className="mx-1" />
-                              <a href="/achievement#portfolio">Portfolio</a>
+                              <a href="/achievement#portfolio">Fresh Food</a>
                             </li>
-                            <li className='my-2'>
+                            <li className='my-4'>
                               <FontAwesomeIcon icon={faAngleRight} className="mx-1" />
-                              <a href="/achievement#maquette">Maquettage</a>
+                              <a href="/achievement#maquette">Restaurant Akira</a>
                             </li>
-                            <li className='my-2'>
+                            <li className='my-4'>
                               <FontAwesomeIcon icon={faAngleRight} className="mx-1" />
-                              <a href="/achievement#javascript">Fonctionnalité Javascript</a>
+                              <a href="/achievement#javascript">Espace Bien-être</a>
                             </li>
                         </ul>
                     </div>
@@ -100,7 +100,7 @@ const Footer = () => {
 
                 {/* Bas de page */}
             </div>
-                <div className="row">
+                <div className="row m-0">
                     <div className="col-md-12 container-fluid text-center bg-dark my-3">
                         <p className='m-0 p-3 text-white'>&copy; Designed by Jhon Doe</p>
                     </div>

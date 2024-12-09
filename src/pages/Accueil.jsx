@@ -27,7 +27,7 @@ const Home = () => {
           <div className="container-fluid mt-5">
           <div className="row shadow p-3 m-5 bg-white rounded">
             <div className="col-md-6 ">
-              <h2>À propos</h2>
+              <h2 id='apropos'>À propos</h2>
               <hr/>
               <p>
                 Passionné par l'informatique et les nouvelles technologies, j'ai suivi une formation d'
@@ -42,11 +42,11 @@ const Home = () => {
             </div>
             <div className="col-md-6">
             <picture>
+              <source media="(max-width: 1350px)" srcSet={JohnDoeTab} />
+                 {/* Image de fallback, nécessaire si aucune condition n'est remplie */}
+                 <img src={JhonDoeDesk} alt="yes" style={{borderRadius : '10px'}}/>
+            </picture>
  
-  <source media="(max-width: 1350px)" srcSet={JohnDoeTab} />
-  {/* Image de fallback, nécessaire si aucune condition n'est remplie */}
-  <img src={JhonDoeDesk} alt="yes"/>
-</picture>
               
               <h2>Mes compétences</h2>
               <ul className="list-unstyled">
@@ -82,12 +82,10 @@ const Home = () => {
   >
     <h1>Bonjour, je suis John Doe</h1>
     <p>Développeur web full stack</p>
-    <a href="#" className="btn btn-primary">En savoir plus</a>
+    <a href="#apropos" className="btn btn-primary">En savoir plus</a>
   </div>
-
-
-            <JhonDoe />  
-        </div>
+    <JhonDoe/>
+  </div>
     )
 }
 
