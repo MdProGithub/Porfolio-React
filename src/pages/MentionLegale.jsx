@@ -55,8 +55,9 @@ const Mention = () => {
             data-bs-parent="#legalAccordion"
           >
             <div className="accordion-body">
-              <strong>Hébergeur : </strong>Nom de l'hébergeur<br />
-              <strong>Adresse : </strong>123 Rue de l'Hébergement, Paris, France
+              <strong>Hébergeur : </strong>Hostinger<br />
+              <strong>Adresse : </strong>40 Rue Laure Diebold 69009 Lyon, France
+
             </div>
           </div>
         </div>
@@ -82,7 +83,7 @@ const Mention = () => {
             data-bs-parent="#legalAccordion"
           >
             <div className="accordion-body">
-              <strong>Crédits : </strong>Site développé par John Doe, étudiant du CEF.<br />
+              <strong>Crédits : </strong>Site développé par John Doe, developper web.<br />
               Les images libres de droit sont issues du site <a href="https://pixabay.com" target="_blank" rel="noopener noreferrer">Pixabay</a>.
             </div>
           </div>
