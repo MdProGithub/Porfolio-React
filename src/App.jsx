@@ -4,6 +4,7 @@ import Blog from './pages/Blog';
 import Contact from './pages/Contact';
 import Realisation from './pages/Realisation';
 import Service from './pages/Service';
+import Mention from "./pages/MentionLegale";
 
 const App = () => {
   return (
@@ -14,6 +15,7 @@ const App = () => {
         <Route path="/Contact" element={<Contact/>}></Route>
         <Route path="/Realisation" element={<Realisation/>}></Route>
         <Route path="/Service" element={<Service/>}></Route>
+        <Route path="/Mentions" element={<Mention/>}></Route>
       </Routes>
     </main>
   );

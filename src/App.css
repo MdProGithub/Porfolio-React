@@ -32,3 +32,9 @@
 .footer .fa-angle-right {
     color: #007bff;
 }
+
+hr {
+    opacity: 1 !important; /* Force l'opacité pour surcharger les styles de base */
+    background-color: blue;
+    height: 1px;
+}

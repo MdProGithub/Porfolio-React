@@ -57,7 +57,7 @@ const Footer = () => {
                             </li>
                             <li className='my-2'>
                               <FontAwesomeIcon icon={faAngleRight} className="mx-1" />
-                              <Link to="/legalNotice">Mentions légales</Link>
+                              <Link to="/Mentions">Mentions légales</Link>
                             </li>
                         </ul>
                     </div>
@@ -68,15 +68,15 @@ const Footer = () => {
                         <ul className='list-unstyled'>
                             <li className='my-4'>
                               <FontAwesomeIcon icon={faAngleRight} className="mx-1" />
-                              <a href="/achievement#portfolio">Fresh Food</a>
+                              <Link to="/realisation">Fresh Food</Link>
                             </li>
                             <li className='my-4'>
                               <FontAwesomeIcon icon={faAngleRight} className="mx-1" />
-                              <a href="/achievement#maquette">Restaurant Akira</a>
+                              <Link to="/realisation">Restaurant Akira</Link>
                             </li>
                             <li className='my-4'>
                               <FontAwesomeIcon icon={faAngleRight} className="mx-1" />
-                              <a href="/achievement#javascript">Espace Bien-être</a>
+                              <Link to="/realisation">Espace Bien Etre</Link>
                             </li>
                         </ul>
                     </div>
@@ -87,13 +87,16 @@ const Footer = () => {
                         <ul className='list-unstyled'>
                             <li className='my-2'>
                               <FontAwesomeIcon icon={faAngleRight} className="mx-1" />
-                              <a href="/blog#article-1">Démystifier le JavaScript moderne</a></li>
+                              <Link to="/Blog">Coder son site en HTML/CSS</Link>
+                            </li>
                             <li className='my-2'>
                               <FontAwesomeIcon icon={faAngleRight} className="mx-1" />
-                              <a href="/blog#article-2">Le guide ultime du SEO pour le e-commerce</a></li>
+                              <Link to="/Blog">Apprendre à coder</Link>
+                              </li>
                             <li className='my-2'>
                               <FontAwesomeIcon icon={faAngleRight} className="mx-1" />
-                              <a href="/blog#article-3">Sécurité web : Protéger votre e-commerce contre les cybermenaces</a></li>
+                              <Link to="/Blog">Coder en responsive design</Link>
+                              </li>
                         </ul>
                     </div>
                 </div>
